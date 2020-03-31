@@ -27,7 +27,7 @@ def on_open(ws):
 
 if __name__ == "__main__":
     websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("wss://www.selfquant.com/api/subscribe?userid=123456&usage=notify",
+    ws = websocket.WebSocketApp("wss://www.selfquant.com/api/subscribe?userid=123456&usage=push",
                               on_message = on_message,
                               on_error = on_error,
                               on_close = on_close)

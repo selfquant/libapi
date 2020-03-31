@@ -111,7 +111,7 @@ func receive(recvFunc func(from, data string)) {
 	}
 */
 func main() {
-	WSClientInit("wss://www.selfquant.com", "/api/subscribe?userid=123456&usage=notify", func(from, data string) {
+	WSClientInit("wss://www.selfquant.com", "/api/subscribe?userid=123456&usage=push", func(from, data string) {
 		fmt.Printf("%s, %s\n", from, data)
 	})
 }

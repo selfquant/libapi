@@ -33,5 +33,5 @@ the api service request or subscribe for user
 
 ``` go
 // connect:
-wss://www.selfquant.com/api/subscribe?userid=123456&usage=notify
+wss://www.selfquant.com/api/subscribe?userid=123456&usage=push
 ```
