@@ -1,7 +1,7 @@
 # libapi
 the api service request or subscribe for user
 
-* the notify api by websocket
+* the push api by websocket
 
 ``` go
 // the structre for push
