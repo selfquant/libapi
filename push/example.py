@@ -23,11 +23,13 @@ def on_close(ws):
     print("### closed ###")
 
 def on_open(ws):
+    dictSub = {"userid": "123456"}
+    ws.send(json.dumps(dictSub))
     pass
 
 if __name__ == "__main__":
     websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("wss://www.selfquant.com/api/subscribe?userid=123456&usage=push",
+    ws = websocket.WebSocketApp("wss://www.selfquant.com/api/subscribe?usage=push",
                               on_message = on_message,
                               on_error = on_error,
                               on_close = on_close)
