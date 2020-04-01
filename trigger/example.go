@@ -109,7 +109,7 @@ func receive(recvFunc func(from, data string)) {
 	}
 */
 
-// the trigger demo for user
+// the trade trigger demo for user
 /*
 	{
 		"market": {

@@ -62,7 +62,7 @@ wss://www.selfquant.com/api/subscribe?usage=push
 	}
 */
 
-// the trigger demo for user
+// the trade trigger demo for user
 /*
 	{
 		"market": {
@@ -90,5 +90,5 @@ wss://www.selfquant.com/api/subscribe?usage=push
 
 ``` go
 // connect:
-wss://www.selfquant.com/api/subscribe?usage=push
+wss://www.selfquant.com/api/subscribe?usage=trigger
 ```
